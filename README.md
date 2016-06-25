@@ -3,8 +3,8 @@
 2. Can only be used on Linux platform.
 
 # How to use
-make
-./attack demo.R
+1. make
+2. ./attack demo.R
 
 # Things need to be mentioned 
 1. Demo.R is a pre-compiled DES programm. It uses  a 16 kilobyte, 4-way set-associative L1 data cache with 32 byte cache lines.

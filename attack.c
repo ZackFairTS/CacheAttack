@@ -466,30 +466,6 @@ void CollectionPtxt(){
 	mpz_clear(mtemp);
 	mpz_clear(ctemp);
 	mpz_clear(testkey);
-
-
-/*
-	for(i=0; i<SAMPLE_NUM; i++){
-		mpz_urandomb(mtemp, state, 64);
-
-		interact(&time, mtemp, ctemp);
-	//	interact2(&time, mtemp, testkey, ctemp);
-			mpz_init(collect_m[i]);
-			mpz_set(collect_m[i], mtemp);
-
-			mpz_init(collect_c[i]);			
-			mpz_set(collect_c[i], ctemp);
-
-			collect_time[i] = time;
-
-	}
-
-
-	mpz_clear(mtemp);
-	mpz_clear(ctemp);
-	mpz_clear(testkey);
-
-*/
 	
 }
 
@@ -549,15 +525,7 @@ void SortKeyDiffer33(){
 		}
 		
 }
-	// write to a file
-//	freopen("output.txt", "w", stdout); 
-//	for(i=0; i<8; i++){
-//		  printf("i=%d\n",i);
-//		for(j=0; j<64; j++){
-//			gmp_printf("%4.3Ff\n", avrtime[i][j]);
-//		}
-
-//	}	
+	
 
 }
 
@@ -586,26 +554,6 @@ void SortKeyDiffer(){
 		}
     }
 	
-	// compute average encryption time for 64 entries
-//	for(i=0; i<8; i++){
-//		for(j=0; j<64; j++){
-
-//			mpf_div_ui(avrtime[i][j], avrtime[i][j], numcount[i][j]);
-			
-//		}
-		
-//}
-	// write to a file
-
-//	freopen("output.txt", "w", stdout); 
-//	for(i=0; i<8; i++){
-//		  printf("i=%d\n",i);
-//		for(j=0; j<64; j++){
-//			printf("%d\n", numcount[i][j]);
-//		}
-
-//}	
-
 }
 
 // get original key differ in binary
